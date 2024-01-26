@@ -75,25 +75,3 @@ class HERO(UNITS):
                      str(self.magic)+"\t health: "+str(self.health)+"\t magic level: "+str(self.magiclevel)).title()
         print(DISCRIPTION)
 
-    
-
-#---------------MAIN--------------------
-        #Units list
-VILLAGER=UNITS("Villager","Human","1","0", "10")
-ORC_VILLAGER=UNITS("Orc villager", "Orcs","1","0","10")
-LEADER=HERO("Artas","Human","10","100","100","10","blue")
-        #Units actions
-VILLAGER.SHOW_UNITS()
-VILLAGER.LEVEL_UP()
-VILLAGER.MOVE()
-VILLAGER.HP_LOW()
-VILLAGER.HIT()
-VILLAGER.SET_HP(0)
-VILLAGER.DEAD()
-VILLAGER.SHOW_UNITS()
-ORC_VILLAGER.SHOW_UNITS()
-ORC_VILLAGER.HP_LOW()
-ORC_VILLAGER.HIT()
-ORC_VILLAGER.DEAD()
-LEADER.MAKE_MAGIC()
-LEADER.MOVE()
