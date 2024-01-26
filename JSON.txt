@@ -1,0 +1,1 @@
+[{"username": "alex", "score": "3000", "rank": "gold-nova", "awards": ["gold-medal", "silver-medal", "diamond-medal"]}, {"username": "leo", "score": "4500", "rank": "gold-nova-3", "awards": ["gold-medal", "silver-medal", "diamond-medal", "emirald-medal"]}]
