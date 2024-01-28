@@ -1,7 +1,7 @@
         #DISPLAY MARIO
 import pygame
-pygame.init()
 
+pygame.init()
 #----------------CONFIGURATIONS-------------
 MAX_X=1280
 MAX_Y=720
@@ -17,7 +17,7 @@ GAME_OVER=False
 #-----------------DISPLAY------------------
 
 SCREEN=pygame.display.set_mode((MAX_X,MAX_Y))
-pygame.display.set_caption("IMAGE GAME V1.0")
+pygame.display.set_caption("IMAGE GAME V1.3.1")
 MARIO=pygame.image.load("Mario.png").convert_alpha()
 MARIO=pygame.transform.scale(MARIO,(SIZE,SIZE))
 
