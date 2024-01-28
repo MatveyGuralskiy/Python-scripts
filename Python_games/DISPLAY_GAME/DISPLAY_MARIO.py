@@ -8,7 +8,7 @@ MAX_Y=720
 IMAGE_X=550
 IMAGE_Y=300
 SIZE=80
-BACKGROUND_COLOR=(0,0,0)
+BACKGROUND_COLOR=(0,15,0)
 MOVE_R=False
 MOVE_L=False
 MOVE_UP=False
@@ -18,7 +18,7 @@ GAME_OVER=False
 
 SCREEN=pygame.display.set_mode((MAX_X,MAX_Y))
 pygame.display.set_caption("IMAGE GAME V1.0")
-MARIO=pygame.image.load("Mario.png").convert()
+MARIO=pygame.image.load("Mario.png").convert_alpha()
 MARIO=pygame.transform.scale(MARIO,(SIZE,SIZE))
 
 #------------MAIN GAME LOOP----------------
