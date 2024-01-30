@@ -10,4 +10,6 @@ python manage.py runserver
 4.Copy a server link:
 For example: http://127.0.0.1:8000/
 5.Now go to the browser and paste the link
-6.Enjoy!
+6.You can move to the second page if you append to the html:
+/info/
+7.Enjoy!

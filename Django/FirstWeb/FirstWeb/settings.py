@@ -40,6 +40,7 @@ INSTALLED_APPS = [
 
     #FirstWeb site
     'FirstWeb2',
+    'FirstWeb3',
 ]
 
 MIDDLEWARE = [
