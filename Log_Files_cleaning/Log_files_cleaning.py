@@ -7,7 +7,7 @@ import shutil
 #Example to run Log-file cleaning
 #Number of arguments:                  0             1       2 3
                     #python3 Log_files_cleaning.py FILE.txt 10 3
-#Or instead python3 enter python
+#Or enter python3 instead python
 
 if(len(sys.argv)<4):
     """Check if number of arguments is correct"""
