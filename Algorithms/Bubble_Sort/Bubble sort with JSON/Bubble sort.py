@@ -14,8 +14,13 @@ def BUBBLE_SORT(MYLIST):
                 MYLIST[SORTING],MYLIST[SORTING+1]=MYLIST[SORTING+1],MYLIST[SORTING]
     return MYLIST
 
-INPUT_FILE="C:\\Users\\Matvey\\Desktop\\Python\\ARRAY.txt"
-OUTPUT_FILE="C:\\Users\\Matvey\\Desktop\\Python\\Bubble_Sorted_Array.txt"
+INPUT_USER=("["+input("Enter the numbers you want to add to the array: ")+"]")
+INPUT_FILE="C:\\YOUR_PATH\\ARRAY.txt"
+INPUT_OPEN=open(INPUT_FILE,mode="w",encoding="utf-16")
+INPUT_OPEN.write(INPUT_USER)
+INPUT_OPEN.close()
+
+OUTPUT_FILE="C:\\YOUR_PATH\\Bubble_Sorted_Array.txt"
 
 INPUT_OPEN=open(INPUT_FILE,mode="r",encoding="utf-16")
 INPUT_JSON=INPUT_OPEN.read()
@@ -23,7 +28,7 @@ ARRAY=json.loads(INPUT_JSON)
 INPUT_OPEN.close()
 
 OUTPUT_ARRAY=BUBBLE_SORT(ARRAY.copy())
-OUTPUT_OPEN=open(OUTPUT_FILE,mode="a",encoding="utf-16")
+OUTPUT_OPEN=open(OUTPUT_FILE,mode="w",encoding="utf-16")
 OUTPUT_OPEN.write("\t\t\tBubble sorted array\n")
 OUTPUT_OPEN.write(json.dumps(OUTPUT_ARRAY))
 OUTPUT_OPEN.close()
