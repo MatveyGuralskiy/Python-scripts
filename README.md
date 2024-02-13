@@ -34,6 +34,8 @@ Working with Internet (GET,POST,DOWNLOAD)
 
 Convert numbers
 
+Fibonacci generator
+
 ## 🧬 To use any of the scripts, clone the repository
 
 
