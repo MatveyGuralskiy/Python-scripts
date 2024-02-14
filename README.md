@@ -1,4 +1,4 @@
-# 🐍 Bash Script Repository
+# 🐍 Python Script Repository
 This repository contains a collection of Python scripts for various purposes. Each script is designed to perform a specific task, ranging from system automation to utility functions. Scripts with classes, algorithms, functions, units, log files cleaning and with using different libraries, like Json, Pygame, Django, Flask. Feel free to explore and use these scripts based on your needs.
 
 ## 🖥️ Scripts
