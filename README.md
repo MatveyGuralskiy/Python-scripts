@@ -36,6 +36,8 @@ Convert numbers
 
 Fibonacci generator
 
+Datetime
+
 ## 🧬 To use any of the scripts, clone the repository
 
 <p><img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDV2NmphdXZ5dHh5bTBsNWx6M3g2a3pqaGVha3NyaDI2YWpiam14YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/coxQHKASG60HrHtvkt/giphy.gif" style="height:350px; width:700px" /></p>
